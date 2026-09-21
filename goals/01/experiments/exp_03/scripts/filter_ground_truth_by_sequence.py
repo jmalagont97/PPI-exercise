@@ -44,7 +44,7 @@ def read_fasta(path):
         sequences[current_id] = sequence
     if duplicate_ids:
         raise ValueError(f"Duplicate FASTA headers: {len(duplicate_ids)}")
-    return {identifier for identifier, sequence in sequences.items() if sequence}
+    return {identifier: sequence for identifier, sequence in sequences.items() if sequence}
 
 
 def write_version(output_dir, ground_truth, fasta, counts, commit):
@@ -64,10 +64,15 @@ def main():
     parser.add_argument("--ground-truth", default=DEFAULT_GROUND_TRUTH)
     parser.add_argument("--fasta", default=DEFAULT_FASTA)
     parser.add_argument("--output-dir", default=DEFAULT_OUTPUT)
+    parser.add_argument("--max-length", type=int, default=1024)
     args = parser.parse_args()
+    if args.max_length < 1:
+        raise ValueError("--max-length must be positive")
     os.makedirs(args.output_dir, exist_ok=True)
 
-    available = read_fasta(args.fasta)
+    sequences = read_fasta(args.fasta)
+    available = set(sequences)
+    eligible = {identifier for identifier, sequence in sequences.items() if len(sequence) <= args.max_length}
     with open(args.ground_truth, newline="") as handle:
         reader = csv.DictReader(handle, delimiter="\t")
         required = {"uniprot_A", "uniprot_B"}
@@ -84,8 +89,12 @@ def main():
         b = row["uniprot_B"]
         a_available = a in available
         b_available = b in available
-        if a_available and b_available:
-            decision, reason = "kept", "both_sequences_available"
+        a_length = len(sequences[a]) if a_available else ""
+        b_length = len(sequences[b]) if b_available else ""
+        a_eligible = a in eligible
+        b_eligible = b in eligible
+        if a_eligible and b_eligible:
+            decision, reason = "kept", "both_sequences_available_within_max_length"
             kept.append(row)
         else:
             decision = "removed"
@@ -93,10 +102,16 @@ def main():
                 reason = "sequence_missing_A_and_B"
             elif not a_available:
                 reason = "sequence_missing_A"
-            else:
+            elif not b_available:
                 reason = "sequence_missing_B"
-            removed.append({"source_row": row_number, "uniprot_A": a, "uniprot_B": b, "label": row.get("label", ""), "reason": reason})
-        audit.append({"source_row": row_number, "uniprot_A": a, "uniprot_B": b, "label": row.get("label", ""), "a_sequence": a_available, "b_sequence": b_available, "decision": decision, "reason": reason})
+            elif not a_eligible and not b_eligible:
+                reason = "sequence_A_and_B_exceed_max_length"
+            elif not a_eligible:
+                reason = "sequence_A_exceeds_max_length"
+            else:
+                reason = "sequence_B_exceeds_max_length"
+            removed.append({"source_row": row_number, "uniprot_A": a, "uniprot_B": b, "label": row.get("label", ""), "a_length": a_length, "b_length": b_length, "reason": reason})
+        audit.append({"source_row": row_number, "uniprot_A": a, "uniprot_B": b, "label": row.get("label", ""), "a_sequence": a_available, "b_sequence": b_available, "a_length": a_length, "b_length": b_length, "a_within_max_length": a_eligible, "b_within_max_length": b_eligible, "decision": decision, "reason": reason})
 
     filtered_path = os.path.join(args.output_dir, "ground_truth_filtered.tsv")
     with open(filtered_path, "w", newline="") as handle:
@@ -105,13 +120,13 @@ def main():
         writer.writerows(kept)
 
     with open(os.path.join(args.output_dir, "filter_audit.tsv"), "w", newline="") as handle:
-        fields = ["source_row", "uniprot_A", "uniprot_B", "label", "a_sequence", "b_sequence", "decision", "reason"]
+        fields = ["source_row", "uniprot_A", "uniprot_B", "label", "a_sequence", "b_sequence", "a_length", "b_length", "a_within_max_length", "b_within_max_length", "decision", "reason"]
         writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
         writer.writeheader()
         writer.writerows(audit)
 
     with open(os.path.join(args.output_dir, "removed_interactions.tsv"), "w", newline="") as handle:
-        fields = ["source_row", "uniprot_A", "uniprot_B", "label", "reason"]
+        fields = ["source_row", "uniprot_A", "uniprot_B", "label", "a_length", "b_length", "reason"]
         writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
         writer.writeheader()
         writer.writerows(removed)
@@ -126,9 +141,14 @@ def main():
         writer.writerow(["kept_rows", len(kept)])
         writer.writerow(["removed_rows", len(removed)])
         writer.writerow(["available_proteins", len(available)])
-        writer.writerow(["rows_with_both_sequences", len(kept)])
+        writer.writerow(["eligible_proteins", len(eligible)])
+        writer.writerow(["excluded_proteins_over_max_length", len(available - eligible)])
+        writer.writerow(["max_sequence_length", args.max_length])
+        writer.writerow(["rows_with_both_sequences_within_max_length", len(kept)])
         writer.writerow(["rows_missing_A", sum(not item["a_sequence"] for item in audit)])
         writer.writerow(["rows_missing_B", sum(not item["b_sequence"] for item in audit)])
+        writer.writerow(["rows_A_over_max_length", sum(item["a_sequence"] and not item["a_within_max_length"] for item in audit)])
+        writer.writerow(["rows_B_over_max_length", sum(item["b_sequence"] and not item["b_within_max_length"] for item in audit)])
         for label, count in labels_before.items():
             writer.writerow([f"input_label_{label}", count])
             writer.writerow([f"filtered_label_{label}", labels_after[label]])
@@ -142,8 +162,11 @@ def main():
         "kept_rows": len(kept),
         "removed_rows": len(removed),
         "available_proteins": len(available),
+        "eligible_proteins": len(eligible),
+        "excluded_proteins_over_max_length": len(available - eligible),
+        "max_sequence_length": args.max_length,
     }, commit)
-    print(f"[done] input_rows={len(rows)} kept_rows={len(kept)} removed_rows={len(removed)} available_proteins={len(available)}", flush=True)
+    print(f"[done] input_rows={len(rows)} kept_rows={len(kept)} removed_rows={len(removed)} available_proteins={len(available)} eligible_proteins={len(eligible)} max_sequence_length={args.max_length}", flush=True)
 
 
 if __name__ == "__main__":

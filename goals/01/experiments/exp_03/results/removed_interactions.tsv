@@ -1,407 +1,616 @@
-source_row	uniprot_A	uniprot_B	label	reason
-18	C0LGH4	P25854	positive	sequence_missing_B
-29	D3K0M2	P25854	positive	sequence_missing_B
-46	F4IS56	P25854	positive	sequence_missing_B
-58	F4K6B8	P25854	positive	sequence_missing_B
-71	O04204	Q8LEQ0	positive	sequence_missing_B
-76	O04336	P25069	positive	sequence_missing_B
-82	O04567	P25854	positive	sequence_missing_B
-93	O04719-1	O49686	positive	sequence_missing_A
-94	O04719-1	O80920	positive	sequence_missing_A
-95	O04719-1	O80992	positive	sequence_missing_A
-96	O04719-1	Q39192	positive	sequence_missing_A
-97	O04719-1	Q39193	positive	sequence_missing_A
-98	O04719-1	Q8S8E3	positive	sequence_missing_A
-99	O04719-1	Q8VZS8	positive	sequence_missing_A
-100	O04719-1	Q940H6	positive	sequence_missing_A
-101	O04719-1	Q9FLB1	positive	sequence_missing_A
-102	O04719-1	Q9SSM7	positive	sequence_missing_A
-104	O22176	P25069	positive	sequence_missing_B
-107	O22179	P25854	positive	sequence_missing_B
-125	O22467	Q9M0V3-1	positive	sequence_missing_B
-133	O22763	P25854	positive	sequence_missing_B
-143	O23145	P25854	positive	sequence_missing_B
-148	O23320	O23552	positive	sequence_missing_B
-175	O23320	Q8LE56	positive	sequence_missing_B
-176	O23320	Q8LG64	positive	sequence_missing_B
-177	O23320	Q8LPR4	positive	sequence_missing_B
-178	O23320	Q8RWQ8	positive	sequence_missing_B
-191	O23320	Q9LEZ2	positive	sequence_missing_B
-221	O23552	P25071	positive	sequence_missing_A
-222	O23552	P25854	positive	sequence_missing_A_and_B
-223	O23552	P30187	positive	sequence_missing_A
-224	O23552	P59220	positive	sequence_missing_A
-225	O23552	Q03509	positive	sequence_missing_A
-226	O23552	Q9S744	positive	sequence_missing_A
-241	O48788	P25854	positive	sequence_missing_B
-248	O49552	Q8LGH4	positive	sequence_missing_B
-255	O49839	P25854	positive	sequence_missing_B
-260	O49840	P25854	positive	sequence_missing_B
-267	O64817	P25854	positive	sequence_missing_B
-276	O65469	P25854	positive	sequence_missing_B
-281	O65554	P25854	positive	sequence_missing_B
-298	O80651	P25854	positive	sequence_missing_B
-310	O80931	Q8RY59	positive	sequence_missing_B
-323	O81292	P25854	positive	sequence_missing_B
-329	O81445	Q8RWC9	positive	sequence_missing_B
-331	O82132	Q7XYY2-1	positive	sequence_missing_B
-332	O82132	Q8RY59	positive	sequence_missing_B
-334	O82345	P25069	positive	sequence_missing_B
-338	O82754	P25854	positive	sequence_missing_B
-342	P14712-1	Q8GXX7	positive	sequence_missing_A
-360	P25069	Q93WU6	positive	sequence_missing_A
-361	P25069	Q949Y0	positive	sequence_missing_A
-362	P25069	Q9FHN8	positive	sequence_missing_A
-363	P25069	Q9LPZ9	positive	sequence_missing_A
-364	P25069	Q9SJA8	positive	sequence_missing_A
-365	P25069	Q9SR07	positive	sequence_missing_A
-366	P25069	Q9STX0	positive	sequence_missing_A
-367	P25069	Q9SV15	positive	sequence_missing_A
-391	P25071	Q8LE56	positive	sequence_missing_B
-392	P25071	Q8LG64	positive	sequence_missing_B
-393	P25071	Q8LPR4	positive	sequence_missing_B
-394	P25071	Q8RWQ8	positive	sequence_missing_B
-395	P25071	Q8RWY0	positive	sequence_missing_B
-416	P25071	Q9LNX6	positive	sequence_missing_B
-442	P25854	P27450	positive	sequence_missing_A
-443	P25854	P43294	positive	sequence_missing_A
-444	P25854	P55737	positive	sequence_missing_A
-445	P25854	P83755	positive	sequence_missing_A
-446	P25854	P92525	positive	sequence_missing_A
-447	P25854	P93050	positive	sequence_missing_A
-448	P25854	Q0WPH8	positive	sequence_missing_A
-449	P25854	Q29Q72	positive	sequence_missing_A
-450	P25854	Q2V359	positive	sequence_missing_A
-451	P25854	Q38847	positive	sequence_missing_A
-452	P25854	Q38876	positive	sequence_missing_A
-453	P25854	Q39010	positive	sequence_missing_A
-454	P25854	Q39019	positive	sequence_missing_A
-455	P25854	Q39021	positive	sequence_missing_A
-456	P25854	Q39050	positive	sequence_missing_A
-457	P25854	Q39140	positive	sequence_missing_A
-458	P25854	Q39254	positive	sequence_missing_A
-459	P25854	Q3E9X6	positive	sequence_missing_A
-460	P25854	Q42479	positive	sequence_missing_A
-461	P25854	Q4PSE3	positive	sequence_missing_A
-462	P25854	Q4PSU4	positive	sequence_missing_A
-463	P25854	Q5XXJ3	positive	sequence_missing_A
-464	P25854	Q70E96	positive	sequence_missing_A
-465	P25854	Q7X9H6	positive	sequence_missing_A
-466	P25854	Q7X9N2	positive	sequence_missing_A
-467	P25854	Q84W01	positive	sequence_missing_A
-468	P25854	Q84WC8	positive	sequence_missing_A
-469	P25854	Q84WW1	positive	sequence_missing_A
-470	P25854	Q8GY11	positive	sequence_missing_A
-471	P25854	Q8GY88	positive	sequence_missing_A
-472	P25854	Q8GYF5	positive	sequence_missing_A
-473	P25854	Q8GYP4	positive	sequence_missing_A
-474	P25854	Q8GZ99	positive	sequence_missing_A
-475	P25854	Q8H1D6	positive	sequence_missing_A
-476	P25854	Q8LAW2	positive	sequence_missing_A
-477	P25854	Q8LE56	positive	sequence_missing_A_and_B
-478	P25854	Q8LG64	positive	sequence_missing_A_and_B
-479	P25854	Q8RWQ8	positive	sequence_missing_A_and_B
-480	P25854	Q8RYD9	positive	sequence_missing_A_and_B
-481	P25854	Q8VZK4	positive	sequence_missing_A
-482	P25854	Q8W490	positive	sequence_missing_A
-483	P25854	Q93XM6	positive	sequence_missing_A
-484	P25854	Q93Z27	positive	sequence_missing_A
-485	P25854	Q93Z30	positive	sequence_missing_A
-486	P25854	Q944J2	positive	sequence_missing_A
-487	P25854	Q94AA4	positive	sequence_missing_A
-488	P25854	Q9C5C0	positive	sequence_missing_A
-489	P25854	Q9C9Q4	positive	sequence_missing_A
-490	P25854	Q9FFN7	positive	sequence_missing_A
-491	P25854	Q9FGX2	positive	sequence_missing_A
-492	P25854	Q9FGZ5	positive	sequence_missing_A
-493	P25854	Q9FHN8	positive	sequence_missing_A
-494	P25854	Q9FHZ1	positive	sequence_missing_A
-495	P25854	Q9FIK0	positive	sequence_missing_A
-496	P25854	Q9FIW6	positive	sequence_missing_A
-497	P25854	Q9FJK3	positive	sequence_missing_A
-498	P25854	Q9FL03	positive	sequence_missing_A
-499	P25854	Q9FL19	positive	sequence_missing_A
-500	P25854	Q9FLL0	positive	sequence_missing_A
-501	P25854	Q9FLV4	positive	sequence_missing_A
-502	P25854	Q9FM69	positive	sequence_missing_A
-503	P25854	Q9FMC2	positive	sequence_missing_A
-504	P25854	Q9FME9	positive	sequence_missing_A
-505	P25854	Q9FMY3	positive	sequence_missing_A
-506	P25854	Q9FN02	positive	sequence_missing_A
-507	P25854	Q9FUD3	positive	sequence_missing_A
-508	P25854	Q9LDI3	positive	sequence_missing_A
-509	P25854	Q9LFU3	positive	sequence_missing_A
-510	P25854	Q9LHI7	positive	sequence_missing_A
-511	P25854	Q9LJL9	positive	sequence_missing_A
-512	P25854	Q9LJY7	positive	sequence_missing_A
-513	P25854	Q9LNX6	positive	sequence_missing_A_and_B
-514	P25854	Q9LQ65	positive	sequence_missing_A
-515	P25854	Q9LS24	positive	sequence_missing_A
-516	P25854	Q9LSI9	positive	sequence_missing_A
-517	P25854	Q9LV04	positive	sequence_missing_A
-518	P25854	Q9LW66	positive	sequence_missing_A
-519	P25854	Q9LX56	positive	sequence_missing_A
-520	P25854	Q9LYL6	positive	sequence_missing_A
-521	P25854	Q9LZP8	positive	sequence_missing_A
-522	P25854	Q9LZV7	positive	sequence_missing_A
-523	P25854	Q9M2K4	positive	sequence_missing_A
-524	P25854	Q9M2L4	positive	sequence_missing_A
-525	P25854	Q9M7Q2	positive	sequence_missing_A
-526	P25854	Q9M844	positive	sequence_missing_A
-527	P25854	Q9M8T0	positive	sequence_missing_A
-528	P25854	Q9M8W6	positive	sequence_missing_A
-529	P25854	Q9M9C3	positive	sequence_missing_A
-530	P25854	Q9M9C5	positive	sequence_missing_A
-531	P25854	Q9S7H5	positive	sequence_missing_A
-532	P25854	Q9SGN7	positive	sequence_missing_A
-533	P25854	Q9SJX8	positive	sequence_missing_A
-534	P25854	Q9SKN2	positive	sequence_missing_A
-535	P25854	Q9SL70	positive	sequence_missing_A
-536	P25854	Q9SLP1	positive	sequence_missing_A
-537	P25854	Q9SND6	positive	sequence_missing_A
-538	P25854	Q9SSC7	positive	sequence_missing_A
-539	P25854	Q9SSF8	positive	sequence_missing_A
-540	P25854	Q9SUP6	positive	sequence_missing_A
-541	P25854	Q9SYS3	positive	sequence_missing_A
-542	P25854	Q9SZ03	positive	sequence_missing_A
-543	P25854	Q9SZJ6	positive	sequence_missing_A
-544	P25854	Q9T074	positive	sequence_missing_A
-545	P25854	Q9ZPE4	positive	sequence_missing_A
-546	P25854	Q9ZRF9	positive	sequence_missing_A
-547	P25854	Q9ZUI9	positive	sequence_missing_A
-548	P25854	Q9ZVM9	positive	sequence_missing_A
-583	P30187	Q8LE56	positive	sequence_missing_B
-584	P30187	Q8LG64	positive	sequence_missing_B
-585	P30187	Q8LPR4	positive	sequence_missing_B
-586	P30187	Q8RWQ8	positive	sequence_missing_B
-587	P30187	Q8RYD9	positive	sequence_missing_B
-650	P40940	Q8S2T0	positive	sequence_missing_B
-664	P43273	Q8LF89	positive	sequence_missing_B
-741	P59220	Q8LE56	positive	sequence_missing_B
-742	P59220	Q8LG64	positive	sequence_missing_B
-743	P59220	Q8LPR4	positive	sequence_missing_B
-744	P59220	Q8RWQ8	positive	sequence_missing_B
-745	P59220	Q8RYD9	positive	sequence_missing_B
-812	P59263	Q38856	positive	sequence_missing_A
-865	Q03509	Q8LE56	positive	sequence_missing_B
-866	Q03509	Q8LG64	positive	sequence_missing_B
-867	Q03509	Q8LPR4	positive	sequence_missing_B
-868	Q03509	Q8RWQ8	positive	sequence_missing_B
-869	Q03509	Q8RYD9	positive	sequence_missing_B
-961	Q38997-2	Q42384	positive	sequence_missing_A
-965	Q39011	Q8S307	positive	sequence_missing_B
-969	Q39024	Q8LGD5	positive	sequence_missing_B
-1013	Q3MK94	Q8RWC9	positive	sequence_missing_B
-1030	Q500U8	Q8LDM2	positive	sequence_missing_B
-1054	Q6ID77	Q8RXD6	positive	sequence_missing_B
-1061	Q6NQ88	Q9M0V3-1	positive	sequence_missing_B
-1070	Q7X9V2	Q8LGE3	positive	sequence_missing_B
-1073	Q7XYY2-1	Q8GUN5	positive	sequence_missing_A
-1074	Q7XYY2-1	Q8GUN5-2	positive	sequence_missing_A_and_B
-1075	Q7XYY2-1	Q9FIP9	positive	sequence_missing_A
-1076	Q7XYY2-1	Q9SEZ1	positive	sequence_missing_A
-1116	Q8GZM7	Q8S307	positive	sequence_missing_B
-1136	Q8LAS7	Q8RWC9	positive	sequence_missing_B
-1142	Q8LDM2	Q9LQ12	positive	sequence_missing_A
-1143	Q8LE56	Q9S744	positive	sequence_missing_A
-1144	Q8LG64	Q9S744	positive	sequence_missing_A
-1145	Q8LGA1	Q9LZ78	positive	sequence_missing_A
-1146	Q8LGG0	Q9ZSZ8	positive	sequence_missing_A
-1147	Q8LGH4	Q9M0V3	positive	sequence_missing_A
-1148	Q8LPK4	Q9ZVN6	positive	sequence_missing_A
-1149	Q8LPR4	Q9S744	positive	sequence_missing_A
-1150	Q8RWQ8	Q9S744	positive	sequence_missing_A
-1151	Q8RY59	Q96288	positive	sequence_missing_A
-1152	Q8RY59	Q9LKW9	positive	sequence_missing_A
-1153	Q8RY59	Q9LUA9	positive	sequence_missing_A
-1154	Q8RY71	Q9SUP6	positive	sequence_missing_A
-1155	Q8RY79	Q8RY79	positive	sequence_missing_A_and_B
-1156	Q8RYD9	Q9S744	positive	sequence_missing_A
-1157	Q8S307	Q8W2F3	positive	sequence_missing_A
-1158	Q8S307	Q9SLH3	positive	sequence_missing_A
-1232	Q9AT76-1	Q9FVC1	positive	sequence_missing_A
-1277	Q9FHN8-1	Q9ZPX9	positive	sequence_missing_A
-1321	Q9LIR4-1	Q9LIR4-1	positive	sequence_missing_A_and_B
-1426	A0A178UA35	Q9LTD6	negative	sequence_missing_A
-1427	A0A178UFM8	Q9ZV02	negative	sequence_missing_A
-1428	A0A178UGH4	Q9SAA9	negative	sequence_missing_A
-1429	A0A178UKR9	P14713	negative	sequence_missing_A
-1430	A0A178ULT4	Q9XEC7	negative	sequence_missing_A
-1431	A0A178UQA3	Q9FMH5	negative	sequence_missing_A
-1432	A0A178URU7	Q9ZNT0	negative	sequence_missing_A
-1433	A0A178UXI0	Q9LHF5	negative	sequence_missing_A
-1434	A0A178V0W2	P0C2G4	negative	sequence_missing_A
-1435	A0A178V4E1	Q94AI4	negative	sequence_missing_A
-1436	A0A178VFA3	Q9LU15	negative	sequence_missing_A
-1437	A0A178VMH7	Q39140-2	negative	sequence_missing_A_and_B
-1438	A0A178VQN9	Q8VZI3	negative	sequence_missing_A
-1439	A0A178VS74	Q93VH5	negative	sequence_missing_A
-1440	A0A178VTR0	Q8L940	negative	sequence_missing_A
-1441	A0A178VUV0	Q9FHB0	negative	sequence_missing_A
-1442	A0A178W4T8	Q8L500	negative	sequence_missing_A
-1443	A0A178WDD2	Q29PZ8	negative	sequence_missing_A
-1444	A0A178WDM5	Q9C7K0	negative	sequence_missing_A
-1445	A0A178WEE3	O80674	negative	sequence_missing_A
-1446	A0A178WFR3	Q39140-2	negative	sequence_missing_A_and_B
-1447	A0A178WKB2	Q9SJU0	negative	sequence_missing_A
-1448	A0A178WLV7	Q9FM10	negative	sequence_missing_A
-1449	A0A178WP44	O04905	negative	sequence_missing_A
-1462	A0A384KQ28	Q3E8H4	negative	sequence_missing_A
-1463	A0A384KVW9	Q9ASX2	negative	sequence_missing_A_and_B
-1464	A0A384KX90	O65282	negative	sequence_missing_A
-1465	A0A384KX90	Q9M8Y0	negative	sequence_missing_A
-1466	A0A384KYS8	Q8VZM9	negative	sequence_missing_A
-1467	A0A384KZU0	Q6EVK6	negative	sequence_missing_A
-1468	A0A384L363	Q9SN19	negative	sequence_missing_A
-1469	A0A384L3L6	Q9LZM6	negative	sequence_missing_A
-1470	A0A384LEC9	Q9XGZ3	negative	sequence_missing_A
-1471	A0A654F9U8	P42777	negative	sequence_missing_A
-1490	B5X0I6	Q8RXF1	negative	sequence_missing_B
-1505	C0LGP3	Q84TE6-2	negative	sequence_missing_B
-1514	C0SVN2	Q8LEB2	negative	sequence_missing_B
-1519	F4HTH8	Q9ASX2	negative	sequence_missing_B
-1520	F4HVM3	Q9SUA7	negative	sequence_missing_B
-1545	F4IG60	Q8RWZ3	negative	sequence_missing_B
-1583	F4JRB0-2	Q0PW40	negative	sequence_missing_A
-1611	F4KD38	Q8LE52	negative	sequence_missing_B
-1619	O04019	Q8S897	negative	sequence_missing_B
-1624	O04265	Q9FXG8-2	negative	sequence_missing_B
-1649	O22456-2	Q9LRY5	negative	sequence_missing_A
-1662	O22815	O65523	negative	sequence_missing_B
-1667	O22900	Q8RWZ6	negative	sequence_missing_B
-1672	O23063	Q8LDK5	negative	sequence_missing_B
-1683	O23290	Q8S3N1	negative	sequence_missing_B
-1684	O23298	Q8RX29	negative	sequence_missing_B
-1688	O23409	O64798	negative	sequence_missing_A
-1689	O23489	O82290	negative	sequence_missing_A
-1696	O23694	O64511-1	negative	sequence_missing_B
-1728	O49660	Q8RUS5	negative	sequence_missing_B
-1732	O49724	Q9ZT50	negative	sequence_missing_A
-1733	O49839	Q8LF48	negative	sequence_missing_B
-1734	O49839	Q8LPQ9	negative	sequence_missing_B
-1735	O50068	Q9M345	negative	sequence_missing_A
-1739	O64503	Q8S3D2	negative	sequence_missing_B
-1747	O64778	Q8LDK3	negative	sequence_missing_B
-1750	O64816	Q8LGH4-PRO_0000396851	negative	sequence_missing_B
-1757	O65440-2	Q8S9K8	negative	sequence_missing_A
-1758	O65440-2	Q94C65	negative	sequence_missing_A
-1759	O65440-2	Q9M886	negative	sequence_missing_A
-1763	O65523	Q1PEY6	negative	sequence_missing_A
-1764	O65539	Q9C9Y8	negative	sequence_missing_A
-1765	O65539	Q9SYM5	negative	sequence_missing_A
-1771	O65782	Q38836-2	negative	sequence_missing_B
-1790	O80626	Q8RXK1	negative	sequence_missing_B
-1799	O80722	Q8LG92	negative	sequence_missing_B
-1823	O81283	Q8RY59	negative	sequence_missing_B
-1835	O81752	P59232	negative	sequence_missing_A
-1843	O82197	Q9M8Y2	negative	sequence_missing_B
-1846	O82286-2	Q9LJ50	negative	sequence_missing_A
-1859	O82633	Q9M2H8	negative	sequence_missing_A
-1868	P0C7Q8	Q8RWA5	negative	sequence_missing_B
-1870	P0C8R0	Q8LPN3	negative	sequence_missing_B
-1882	P22738	Q9FNZ1-2	negative	sequence_missing_B
-1885	P24704	Q8LPL5	negative	sequence_missing_B
-1893	P28297	Q9M0B0	negative	sequence_missing_B
-1896	P29383-3	Q9SCP2	negative	sequence_missing_A
-1905	P34791	Q8RY60	negative	sequence_missing_B
-1922	P42776	Q8RY84	negative	sequence_missing_B
-1926	P42825	Q8RWG8	negative	sequence_missing_B
-1944	P48785	Q9M089	negative	sequence_missing_B
-1949	P51568	Q8RXL8	negative	sequence_missing_B
-1971	P59227	Q9LSX7	negative	sequence_missing_A
-1974	P59263	Q9M5A9	negative	sequence_missing_A
-1978	P68349	Q8RWF5	negative	sequence_missing_B
-2012	Q08A69	Q8RY99	negative	sequence_missing_B
-2041	Q1EBV6	Q9FXG8-1	negative	sequence_missing_B
-2071	Q2V3H2	Q8RWD9	negative	sequence_missing_B
-2079	Q38826-1	Q9MAH8	negative	sequence_missing_A
-2093	Q38935	Q8RXW0	negative	sequence_missing_B
-2097	Q38997	Q9FXF2-2	negative	sequence_missing_B
-2101	Q39041	Q8S397	negative	sequence_missing_B
-2108	Q39142	Q8RWA2	negative	sequence_missing_B
-2109	Q39161	Q8RY08	negative	sequence_missing_B
-2120	Q3E7I5	Q9SV15-2	negative	sequence_missing_B
-2124	Q3EAF9-2	Q9STR4	negative	sequence_missing_A
-2125	Q3EAV6	Q8RWV3	negative	sequence_missing_B
-2143	Q42093	Q8RWD9	negative	sequence_missing_B
-2204	Q6IDL4	Q9ASQ6-3	negative	sequence_missing_B
-2209	Q6NLQ6	Q8RX71	negative	sequence_missing_B
-2236	Q7XYY2-1	Q9LT56	negative	sequence_missing_A
-2246	Q84LG2	Q8RWW1	negative	sequence_missing_B
-2254	Q84TD4	U5LV24	negative	sequence_missing_B
-2257	Q84VW3	Q8RXL7	negative	sequence_missing_B
-2266	Q84XF3	Q9FVC1-2	negative	sequence_missing_B
-2291	Q8GY25	Q8RY37	negative	sequence_missing_B
-2304	Q8H133	Q9M089	negative	sequence_missing_B
-2321	Q8L586	Q8RXF8	negative	sequence_missing_B
-2327	Q8L736	Q8LPI7	negative	sequence_missing_B
-2334	Q8L7G0	Q8LG64	negative	sequence_missing_B
-2335	Q8L7G2	Q9SXZ2-2	negative	sequence_missing_B
-2360	Q8LB88	Q8LG92	negative	sequence_missing_B
-2370	Q8LE43	Q8VXV7	negative	sequence_missing_A
-2371	Q8LE94	Q9FGL2	negative	sequence_missing_A
-2372	Q8LEB2	Q94BR1	negative	sequence_missing_A
-2373	Q8LEB2	Q9SV09	negative	sequence_missing_A
-2374	Q8LEM7	Q8VYQ4	negative	sequence_missing_A
-2375	Q8LF21	Q9LJ45	negative	sequence_missing_A
-2376	Q8LF80	Q94C27	negative	sequence_missing_A
-2377	Q8LFJ6	Q9SDS7	negative	sequence_missing_A
-2378	Q8LFT2	Q9M2D2	negative	sequence_missing_A
-2379	Q8LFV3	Q9SD45	negative	sequence_missing_A
-2380	Q8LFV3	Q9ZWC8	negative	sequence_missing_A
-2381	Q8LGC6	Q9FG94	negative	sequence_missing_A
-2382	Q8LGI3	Q9LJ44	negative	sequence_missing_A
-2383	Q8LJT8	Q9SIF2	negative	sequence_missing_A
-2384	Q8LPF0	Q9MAM1-4	negative	sequence_missing_A_and_B
-2385	Q8LPH6	Q9C6C8	negative	sequence_missing_A
-2386	Q8LPH6	Q9CAD1	negative	sequence_missing_A
-2387	Q8LPJ4	Q94BN0	negative	sequence_missing_A
-2388	Q8LPL5	Q94BY2	negative	sequence_missing_A
-2389	Q8LPS5	Q9LJD8	negative	sequence_missing_A
-2390	Q8LSZ4	Q9LEV3	negative	sequence_missing_A
-2391	Q8RVL2	Q9FVI6	negative	sequence_missing_A
-2392	Q8RWA2	Q9FPJ4	negative	sequence_missing_A
-2393	Q8RWF0	Q9CAT5	negative	sequence_missing_A
-2394	Q8RWK8	Q9FWW2	negative	sequence_missing_A
-2395	Q8RWL4	Q9C5C8	negative	sequence_missing_A
-2396	Q8RWQ1	Q9FF99	negative	sequence_missing_A
-2397	Q8RWQ8	Q945P6	negative	sequence_missing_A
-2398	Q8RWV0	Q9LXG8	negative	sequence_missing_A
-2399	Q8RWV3	Q9C6B8	negative	sequence_missing_A
-2400	Q8RWV8	Q9M2H8	negative	sequence_missing_A
-2401	Q8RWV9	Q9C9F0	negative	sequence_missing_A
-2402	Q8RWY7	Q9ZW19	negative	sequence_missing_A
-2403	Q8RWZ1	Q940V1	negative	sequence_missing_A
-2404	Q8RWZ3	Q8RY18	negative	sequence_missing_A_and_B
-2405	Q8RWZ6	Q9LPZ9	negative	sequence_missing_A
-2406	Q8RXD5	Q9SR34	negative	sequence_missing_A
-2407	Q8RXD7	Q9LMC7	negative	sequence_missing_A
-2408	Q8RXE5	Q9LVW0	negative	sequence_missing_A
-2409	Q8RXG3	Q9LIQ6	negative	sequence_missing_A
-2410	Q8RXL7	Q9SIZ5	negative	sequence_missing_A
-2411	Q8RXM5	Q9FKD7	negative	sequence_missing_A
-2412	Q8RXN6	Q9LTI0	negative	sequence_missing_A
-2413	Q8RXT8	Q9CAF6	negative	sequence_missing_A
-2414	Q8RXY4	Q9C5Q2	negative	sequence_missing_A
-2415	Q8RY17	Q9FFR5	negative	sequence_missing_A
-2416	Q8RY60	Q8VZK4	negative	sequence_missing_A
-2417	Q8RY65	Q9SIV0	negative	sequence_missing_A
-2418	Q8RY74	Q9SCK0	negative	sequence_missing_A
-2419	Q8RY84	Q9C6M0	negative	sequence_missing_A
-2420	Q8RYD3	Q9SIL6	negative	sequence_missing_A
-2421	Q8RYD9	Q9S763	negative	sequence_missing_A
-2422	Q8RYE2	Q9XFR5	negative	sequence_missing_A
-2423	Q8S2T0	Q9LRJ9	negative	sequence_missing_A
-2453	Q8W2F2-2	Q9FJ90	negative	sequence_missing_A
-2478	Q93ZB1-2	Q9ZPX9	negative	sequence_missing_A
-2483	Q93ZV8	Q9SV15-2	negative	sequence_missing_B
-2531	Q94CK9-3	Q9SUH1	negative	sequence_missing_A
-2551	Q9ASQ6-3	Q9S818	negative	sequence_missing_A
-2561	Q9C5G2	Q9ZPW3-2	negative	sequence_missing_B
-2639	Q9FH13	Q9SVQ5	negative	sequence_missing_B
-2640	Q9FH18-1	Q9LPT1	negative	sequence_missing_A
-2687	Q9FNZ1-2	Q9LIF6	negative	sequence_missing_A
-2698	Q9FVT5	Q9T097	negative	sequence_missing_B
-2707	Q9LD60	Q9LDM5	negative	sequence_missing_A
-2801	Q9M591	Q9M5P7	negative	sequence_missing_B
-2828	Q9SI54	Q9XIJ3	negative	sequence_missing_B
+source_row	uniprot_A	uniprot_B	label	a_length	b_length	reason
+18	C0LGH4	P25854	positive	1012		sequence_missing_B
+24	C0LGU7	Q8VZG8	positive	695	1045	sequence_B_exceeds_max_length
+29	D3K0M2	P25854	positive	158		sequence_missing_B
+34	F4HTH8	Q9SEX2	positive	1181	523	sequence_A_exceeds_max_length
+35	F4HZB2	Q9SJF3	positive	3601	367	sequence_A_exceeds_max_length
+37	F4IAG2	F4IAG2	positive	1042	1042	sequence_A_and_B_exceed_max_length
+40	F4IHS2	O22456	positive	3574	251	sequence_A_exceeds_max_length
+41	F4IHS2	Q00958	positive	3574	420	sequence_A_exceeds_max_length
+42	F4IIM1	O48946	positive	2150	1081	sequence_A_and_B_exceed_max_length
+43	F4IIM1	Q941L0	positive	2150	1065	sequence_A_and_B_exceed_max_length
+44	F4IIM1	Q94JQ6	positive	2150	1084	sequence_A_and_B_exceed_max_length
+45	F4IIU4	Q9FHN8	positive	1708	1260	sequence_A_and_B_exceed_max_length
+46	F4IS56	P25854	positive	479		sequence_missing_B
+49	F4J8D3	F4J8D3	positive	1176	1176	sequence_A_and_B_exceed_max_length
+50	F4J8D3	O04209	positive	1176	258	sequence_A_exceeds_max_length
+51	F4J8D3	Q0WLB5	positive	1176	1703	sequence_A_and_B_exceed_max_length
+52	F4JS25	Q9FPR2	positive	1052	209	sequence_A_exceeds_max_length
+56	F4K6B8	O23320	positive	1090	151	sequence_A_exceeds_max_length
+57	F4K6B8	P25071	positive	1090	324	sequence_A_exceeds_max_length
+58	F4K6B8	P25854	positive	1090		sequence_missing_B
+59	F4K6B8	P30187	positive	1090	191	sequence_A_exceeds_max_length
+60	F4K6B8	P59220	positive	1090	149	sequence_A_exceeds_max_length
+61	F4K6B8	Q03509	positive	1090	149	sequence_A_exceeds_max_length
+62	F4K6B8	Q9S744	positive	1090	151	sequence_A_exceeds_max_length
+71	O04204	Q8LEQ0	positive	317		sequence_missing_B
+73	O04209	Q0WLB5	positive	258	1703	sequence_B_exceeds_max_length
+76	O04336	P25069	positive	380		sequence_missing_B
+79	O04492	Q3EBC8	positive	419	1388	sequence_B_exceeds_max_length
+81	O04492	Q9SP32	positive	419	1909	sequence_B_exceeds_max_length
+82	O04567	P25854	positive	601		sequence_missing_B
+93	O04719-1	O49686	positive		191	sequence_missing_A
+94	O04719-1	O80920	positive		207	sequence_missing_A
+95	O04719-1	O80992	positive		190	sequence_missing_A
+96	O04719-1	Q39192	positive		362	sequence_missing_A
+97	O04719-1	Q39193	positive		361	sequence_missing_A
+98	O04719-1	Q8S8E3	positive		215	sequence_missing_A
+99	O04719-1	Q8VZS8	positive		221	sequence_missing_A
+100	O04719-1	Q940H6	positive		362	sequence_missing_A
+101	O04719-1	Q9FLB1	positive		203	sequence_missing_A
+102	O04719-1	Q9SSM7	positive		209	sequence_missing_A
+104	O22176	P25069	positive	317		sequence_missing_B
+107	O22179	P25854	positive	309		sequence_missing_B
+117	O22267	Q05609	positive	1122	821	sequence_A_exceeds_max_length
+121	O22456	Q6EVK6	positive	251	2193	sequence_B_exceeds_max_length
+125	O22467	Q9M0V3-1	positive	424		sequence_missing_B
+126	O22476	Q94AG2	positive	1196	625	sequence_A_exceeds_max_length
+127	O22607	O49552	positive	507	1088	sequence_B_exceeds_max_length
+129	O22607	Q9M0V3	positive	507	1088	sequence_B_exceeds_max_length
+133	O22763	P25854	positive	411		sequence_missing_B
+143	O23145	P25854	positive	431		sequence_missing_B
+148	O23320	O23552	positive	151		sequence_missing_B
+175	O23320	Q8LE56	positive	151		sequence_missing_B
+176	O23320	Q8LG64	positive	151		sequence_missing_B
+177	O23320	Q8LPR4	positive	151		sequence_missing_B
+178	O23320	Q8RWQ8	positive	151		sequence_missing_B
+191	O23320	Q9LEZ2	positive	151		sequence_missing_B
+221	O23552	P25071	positive		324	sequence_missing_A
+222	O23552	P25854	positive			sequence_missing_A_and_B
+223	O23552	P30187	positive		191	sequence_missing_A
+224	O23552	P59220	positive		149	sequence_missing_A
+225	O23552	Q03509	positive		149	sequence_missing_A
+226	O23552	Q9S744	positive		151	sequence_missing_A
+230	O23680	O81283	positive	297	1503	sequence_B_exceeds_max_length
+241	O48788	P25854	positive	658		sequence_missing_B
+248	O49552	Q8LGH4	positive	1088		sequence_missing_B
+255	O49839	P25854	positive	426		sequence_missing_B
+260	O49840	P25854	positive	426		sequence_missing_B
+262	O50055	Q9SYX2	positive	355	1029	sequence_B_exceeds_max_length
+267	O64817	P25854	positive	333		sequence_missing_B
+276	O65469	P25854	positive	265		sequence_missing_B
+281	O65554	P25854	positive	441		sequence_missing_B
+289	O80452	Q9C5U0	positive	839	1080	sequence_B_exceeds_max_length
+293	O80536	P14712	positive	524	1122	sequence_B_exceeds_max_length
+294	O80536	P14713	positive	524	1172	sequence_B_exceeds_max_length
+298	O80651	P25854	positive	260		sequence_missing_B
+310	O80931	Q8RY59	positive	367		sequence_missing_B
+321	O81283	Q38906	positive	1503	313	sequence_A_exceeds_max_length
+323	O81292	P25854	positive	674		sequence_missing_B
+329	O81445	Q8RWC9	positive	213		sequence_missing_B
+331	O82132	Q7XYY2-1	positive	335		sequence_missing_B
+332	O82132	Q8RY59	positive	335		sequence_missing_B
+334	O82345	P25069	positive	1043		sequence_missing_B
+338	O82754	P25854	positive	736		sequence_missing_B
+340	P0DKH5	P0DKH5	positive	1288	1288	sequence_A_and_B_exceed_max_length
+341	P0DKH5	Q9XGM3	positive	1288	1217	sequence_A_and_B_exceed_max_length
+342	P14712-1	Q8GXX7	positive		397	sequence_missing_A
+343	P14713	P14713	positive	1172	1172	sequence_A_and_B_exceed_max_length
+344	P14713	Q96524	positive	1172	612	sequence_A_exceeds_max_length
+345	P15459	Q9C5U2	positive	164	1176	sequence_B_exceeds_max_length
+360	P25069	Q93WU6	positive		330	sequence_missing_A
+361	P25069	Q949Y0	positive		482	sequence_missing_A
+362	P25069	Q9FHN8	positive		1260	sequence_missing_A
+363	P25069	Q9LPZ9	positive		830	sequence_missing_A
+364	P25069	Q9SJA8	positive		321	sequence_missing_A
+365	P25069	Q9SR07	positive		330	sequence_missing_A
+366	P25069	Q9STX0	positive		353	sequence_missing_A
+367	P25069	Q9SV15	positive		325	sequence_missing_A
+391	P25071	Q8LE56	positive	324		sequence_missing_B
+392	P25071	Q8LG64	positive	324		sequence_missing_B
+393	P25071	Q8LPR4	positive	324		sequence_missing_B
+394	P25071	Q8RWQ8	positive	324		sequence_missing_B
+395	P25071	Q8RWY0	positive	324		sequence_missing_B
+416	P25071	Q9LNX6	positive	324		sequence_missing_B
+442	P25854	P27450	positive		419	sequence_missing_A
+443	P25854	P43294	positive		443	sequence_missing_A
+444	P25854	P55737	positive		699	sequence_missing_A
+445	P25854	P83755	positive		353	sequence_missing_A
+446	P25854	P92525	positive		184	sequence_missing_A
+447	P25854	P93050	positive		617	sequence_missing_A
+448	P25854	Q0WPH8	positive		956	sequence_missing_A
+449	P25854	Q29Q72	positive		147	sequence_missing_A
+450	P25854	Q2V359	positive		190	sequence_missing_A
+451	P25854	Q38847	positive		268	sequence_missing_A
+452	P25854	Q38876	positive		242	sequence_missing_A
+453	P25854	Q39010	positive		412	sequence_missing_A
+454	P25854	Q39019	positive		421	sequence_missing_A
+455	P25854	Q39021	positive		370	sequence_missing_A
+456	P25854	Q39050	positive		457	sequence_missing_A
+457	P25854	Q39140	positive		330	sequence_missing_A
+458	P25854	Q39254	positive		441	sequence_missing_A
+459	P25854	Q3E9X6	positive		690	sequence_missing_A
+460	P25854	Q42479	positive		529	sequence_missing_A
+461	P25854	Q4PSE3	positive		120	sequence_missing_A
+462	P25854	Q4PSU4	positive		264	sequence_missing_A
+463	P25854	Q5XXJ3	positive		248	sequence_missing_A
+464	P25854	Q70E96	positive		484	sequence_missing_A
+465	P25854	Q7X9H6	positive		249	sequence_missing_A
+466	P25854	Q7X9N2	positive		287	sequence_missing_A
+467	P25854	Q84W01	positive		121	sequence_missing_A
+468	P25854	Q84WC8	positive		374	sequence_missing_A
+469	P25854	Q84WW1	positive		422	sequence_missing_A
+470	P25854	Q8GY11	positive		109	sequence_missing_A
+471	P25854	Q8GY88	positive		300	sequence_missing_A
+472	P25854	Q8GYF5	positive		622	sequence_missing_A
+473	P25854	Q8GYP4	positive		479	sequence_missing_A
+474	P25854	Q8GZ99	positive		953	sequence_missing_A
+475	P25854	Q8H1D6	positive		467	sequence_missing_A
+476	P25854	Q8LAW2	positive		372	sequence_missing_A
+477	P25854	Q8LE56	positive			sequence_missing_A_and_B
+478	P25854	Q8LG64	positive			sequence_missing_A_and_B
+479	P25854	Q8RWQ8	positive			sequence_missing_A_and_B
+480	P25854	Q8RYD9	positive			sequence_missing_A_and_B
+481	P25854	Q8VZK4	positive		185	sequence_missing_A
+482	P25854	Q8W490	positive		470	sequence_missing_A
+483	P25854	Q93XM6	positive		481	sequence_missing_A
+484	P25854	Q93Z27	positive		204	sequence_missing_A
+485	P25854	Q93Z30	positive		459	sequence_missing_A
+486	P25854	Q944J2	positive		401	sequence_missing_A
+487	P25854	Q94AA4	positive		489	sequence_missing_A
+488	P25854	Q9C5C0	positive		615	sequence_missing_A
+489	P25854	Q9C9Q4	positive		651	sequence_missing_A
+490	P25854	Q9FFN7	positive		712	sequence_missing_A
+491	P25854	Q9FGX2	positive		145	sequence_missing_A
+492	P25854	Q9FGZ5	positive		285	sequence_missing_A
+493	P25854	Q9FHN8	positive		1260	sequence_missing_A
+494	P25854	Q9FHZ1	positive		405	sequence_missing_A
+495	P25854	Q9FIK0	positive		444	sequence_missing_A
+496	P25854	Q9FIW6	positive		329	sequence_missing_A
+497	P25854	Q9FJK3	positive		321	sequence_missing_A
+498	P25854	Q9FL03	positive		584	sequence_missing_A
+499	P25854	Q9FL19	positive		385	sequence_missing_A
+500	P25854	Q9FLL0	positive		330	sequence_missing_A
+501	P25854	Q9FLV4	positive		872	sequence_missing_A
+502	P25854	Q9FM69	positive		277	sequence_missing_A
+503	P25854	Q9FMC2	positive		165	sequence_missing_A
+504	P25854	Q9FME9	positive		144	sequence_missing_A
+505	P25854	Q9FMY3	positive		341	sequence_missing_A
+506	P25854	Q9FN02	positive		413	sequence_missing_A
+507	P25854	Q9FUD3	positive		277	sequence_missing_A
+508	P25854	Q9LDI3	positive		446	sequence_missing_A
+509	P25854	Q9LFU3	positive		186	sequence_missing_A
+510	P25854	Q9LHI7	positive		571	sequence_missing_A
+511	P25854	Q9LJL9	positive		599	sequence_missing_A
+512	P25854	Q9LJY7	positive		510	sequence_missing_A
+513	P25854	Q9LNX6	positive			sequence_missing_A_and_B
+514	P25854	Q9LQ65	positive		148	sequence_missing_A
+515	P25854	Q9LS24	positive		292	sequence_missing_A
+516	P25854	Q9LSI9	positive		605	sequence_missing_A
+517	P25854	Q9LV04	positive		670	sequence_missing_A
+518	P25854	Q9LW66	positive		568	sequence_missing_A
+519	P25854	Q9LX56	positive		475	sequence_missing_A
+520	P25854	Q9LYL6	positive		446	sequence_missing_A
+521	P25854	Q9LZP8	positive		146	sequence_missing_A
+522	P25854	Q9LZV7	positive		967	sequence_missing_A
+523	P25854	Q9M2K4	positive		329	sequence_missing_A
+524	P25854	Q9M2L4	positive		1025	sequence_missing_A
+525	P25854	Q9M7Q2	positive		431	sequence_missing_A
+526	P25854	Q9M844	positive		198	sequence_missing_A
+527	P25854	Q9M8T0	positive		627	sequence_missing_A
+528	P25854	Q9M8W6	positive		207	sequence_missing_A
+529	P25854	Q9M9C3	positive		392	sequence_missing_A
+530	P25854	Q9M9C5	positive		670	sequence_missing_A
+531	P25854	Q9S7H5	positive		413	sequence_missing_A
+532	P25854	Q9SGN7	positive		470	sequence_missing_A
+533	P25854	Q9SJX8	positive		249	sequence_missing_A
+534	P25854	Q9SKN2	positive		434	sequence_missing_A
+535	P25854	Q9SL70	positive		571	sequence_missing_A
+536	P25854	Q9SLP1	positive		534	sequence_missing_A
+537	P25854	Q9SND6	positive		342	sequence_missing_A
+538	P25854	Q9SSC7	positive		210	sequence_missing_A
+539	P25854	Q9SSF8	positive		541	sequence_missing_A
+540	P25854	Q9SUP6	positive		324	sequence_missing_A
+541	P25854	Q9SYS3	positive		654	sequence_missing_A
+542	P25854	Q9SZ03	positive		495	sequence_missing_A
+543	P25854	Q9SZJ6	positive		228	sequence_missing_A
+544	P25854	Q9T074	positive		671	sequence_missing_A
+545	P25854	Q9ZPE4	positive		317	sequence_missing_A
+546	P25854	Q9ZRF9	positive		540	sequence_missing_A
+547	P25854	Q9ZUI9	positive		284	sequence_missing_A
+548	P25854	Q9ZVM9	positive		572	sequence_missing_A
+583	P30187	Q8LE56	positive	191		sequence_missing_B
+584	P30187	Q8LG64	positive	191		sequence_missing_B
+585	P30187	Q8LPR4	positive	191		sequence_missing_B
+586	P30187	Q8RWQ8	positive	191		sequence_missing_B
+587	P30187	Q8RYD9	positive	191		sequence_missing_B
+650	P40940	Q8S2T0	positive	182		sequence_missing_B
+652	P42697	Q9C5U2	positive	610	1176	sequence_B_exceeds_max_length
+664	P43273	Q8LF89	positive	330		sequence_missing_B
+683	P49333	Q9S814	positive	738	1294	sequence_B_exceeds_max_length
+741	P59220	Q8LE56	positive	149		sequence_missing_B
+742	P59220	Q8LG64	positive	149		sequence_missing_B
+743	P59220	Q8LPR4	positive	149		sequence_missing_B
+744	P59220	Q8RWQ8	positive	149		sequence_missing_B
+745	P59220	Q8RYD9	positive	149		sequence_missing_B
+812	P59263	Q38856	positive		347	sequence_missing_A
+813	P82280	Q9SQI2	positive	352	1173	sequence_B_exceeds_max_length
+830	P93022	Q9SN12	positive	1164	301	sequence_A_exceeds_max_length
+840	P94102	Q7Y1C4	positive	342	1155	sequence_B_exceeds_max_length
+841	P94102	Q7Y1C5	positive	342	1151	sequence_B_exceeds_max_length
+844	Q00958	Q6EVK6	positive	420	2193	sequence_B_exceeds_max_length
+865	Q03509	Q8LE56	positive	149		sequence_missing_B
+866	Q03509	Q8LG64	positive	149		sequence_missing_B
+867	Q03509	Q8LPR4	positive	149		sequence_missing_B
+868	Q03509	Q8RWQ8	positive	149		sequence_missing_B
+869	Q03509	Q8RYD9	positive	149		sequence_missing_B
+879	Q03509	Q9FHN8	positive	149	1260	sequence_B_exceeds_max_length
+927	Q0WLB5	Q0WLB5	positive	1703	1703	sequence_A_and_B_exceed_max_length
+932	Q1ECJ7	Q5XPJ9	positive	174	1399	sequence_B_exceeds_max_length
+935	Q27IK7	Q84M91	positive	2066	444	sequence_A_exceeds_max_length
+936	Q27IK7	Q9LE82	positive	2066	535	sequence_A_exceeds_max_length
+955	Q38902	Q8SAB7	positive	197	1830	sequence_B_exceeds_max_length
+957	Q38919	Q8SAB7	positive	195	1830	sequence_B_exceeds_max_length
+959	Q38937	Q8SAB7	positive	196	1830	sequence_B_exceeds_max_length
+961	Q38997-2	Q42384	positive		486	sequence_missing_A
+962	Q39009	Q7Y1C4	positive	344	1155	sequence_B_exceeds_max_length
+963	Q39009	Q7Y1C5	positive	344	1151	sequence_B_exceeds_max_length
+965	Q39011	Q8S307	positive	380		sequence_missing_B
+969	Q39024	Q8LGD5	positive	376		sequence_missing_B
+977	Q39160	Q39160	positive	1520	1520	sequence_A_and_B_exceed_max_length
+1010	Q3EBC8	Q8GY79	positive	1388	393	sequence_A_exceeds_max_length
+1011	Q3EBC8	Q9LXW7	positive	1388	1580	sequence_A_and_B_exceed_max_length
+1012	Q3EBC8	Q9SP32	positive	1388	1909	sequence_A_and_B_exceed_max_length
+1013	Q3MK94	Q8RWC9	positive	428		sequence_missing_B
+1027	Q4VP08	Q8VZG8	positive	90	1045	sequence_B_exceeds_max_length
+1028	Q4VP08	Q9FII5	positive	90	1041	sequence_B_exceeds_max_length
+1030	Q500U8	Q8LDM2	positive	326		sequence_missing_B
+1033	Q56Y52	Q9SPU7	positive	467	1123	sequence_B_exceeds_max_length
+1037	Q5S2C3	Q5S2C4	positive	1282	1425	sequence_A_and_B_exceed_max_length
+1039	Q5XPJ9	Q94JY4	positive	1399	85	sequence_A_exceeds_max_length
+1042	Q67XQ1	Q9C5U0	positive	157	1080	sequence_B_exceeds_max_length
+1043	Q67XQ1	Q9C5U1	positive	157	1036	sequence_B_exceeds_max_length
+1044	Q67XQ1	Q9C5U2	positive	157	1176	sequence_B_exceeds_max_length
+1051	Q682T9	Q9FHN8	positive	149	1260	sequence_B_exceeds_max_length
+1053	Q6BDA0	Q9LN63	positive	1340	335	sequence_A_exceeds_max_length
+1054	Q6ID77	Q8RXD6	positive	115		sequence_missing_B
+1061	Q6NQ88	Q9M0V3-1	positive	557		sequence_missing_B
+1062	Q6TLJ2	Q9LYN8	positive	176	1192	sequence_B_exceeds_max_length
+1070	Q7X9V2	Q8LGE3	positive	2055		sequence_missing_B
+1071	Q7X9V2	Q9FHW2	positive	2055	171	sequence_A_exceeds_max_length
+1073	Q7XYY2-1	Q8GUN5	positive		413	sequence_missing_A
+1074	Q7XYY2-1	Q8GUN5-2	positive			sequence_missing_A_and_B
+1075	Q7XYY2-1	Q9FIP9	positive		592	sequence_missing_A
+1076	Q7XYY2-1	Q9SEZ1	positive		242	sequence_missing_A
+1077	Q7Y1C4	Q9FL96	positive	1155	73	sequence_A_exceeds_max_length
+1078	Q7Y1C4	Q9XIR8	positive	1155	74	sequence_A_exceeds_max_length
+1079	Q7Y1C5	Q9XIR8	positive	1151	74	sequence_A_exceeds_max_length
+1110	Q8GY79	Q9LXW7	positive	393	1580	sequence_B_exceeds_max_length
+1111	Q8GY79	Q9SP32	positive	393	1909	sequence_B_exceeds_max_length
+1116	Q8GZM7	Q8S307	positive	478		sequence_missing_B
+1131	Q8L8Z1	Q9C5U0	positive	190	1080	sequence_B_exceeds_max_length
+1136	Q8LAS7	Q8RWC9	positive	226		sequence_missing_B
+1142	Q8LDM2	Q9LQ12	positive		542	sequence_missing_A
+1143	Q8LE56	Q9S744	positive		151	sequence_missing_A
+1144	Q8LG64	Q9S744	positive		151	sequence_missing_A
+1145	Q8LGA1	Q9LZ78	positive		127	sequence_missing_A
+1146	Q8LGG0	Q9ZSZ8	positive		330	sequence_missing_A
+1147	Q8LGH4	Q9M0V3	positive		1088	sequence_missing_A
+1148	Q8LPK4	Q9ZVN6	positive		653	sequence_missing_A
+1149	Q8LPR4	Q9S744	positive		151	sequence_missing_A
+1150	Q8RWQ8	Q9S744	positive		151	sequence_missing_A
+1151	Q8RY59	Q96288	positive		248	sequence_missing_A
+1152	Q8RY59	Q9LKW9	positive		1146	sequence_missing_A
+1153	Q8RY59	Q9LUA9	positive		373	sequence_missing_A
+1154	Q8RY71	Q9SUP6	positive		324	sequence_missing_A
+1155	Q8RY79	Q8RY79	positive			sequence_missing_A_and_B
+1156	Q8RYD9	Q9S744	positive		151	sequence_missing_A
+1157	Q8S307	Q8W2F3	positive		430	sequence_missing_A
+1158	Q8S307	Q9SLH3	positive		587	sequence_missing_A
+1161	Q8SAB7	Q9SBJ6	positive	1830	197	sequence_A_exceeds_max_length
+1162	Q8SAB7	Q9SU67	positive	1830	208	sequence_A_exceeds_max_length
+1177	Q8W420	Q9SQI2	positive	611	1173	sequence_B_exceeds_max_length
+1210	Q94AI7	Q94AI7	positive	1131	1131	sequence_A_and_B_exceed_max_length
+1211	Q94AI7	Q94F39	positive	1131	231	sequence_A_exceeds_max_length
+1212	Q94AI7	Q9LMX5	positive	1131	348	sequence_A_exceeds_max_length
+1213	Q94AI7	Q9SV55	positive	1131	425	sequence_A_exceeds_max_length
+1216	Q94BT6	Q9SQI2	positive	609	1173	sequence_B_exceeds_max_length
+1217	Q94EI3	Q94FB9	positive	245	1337	sequence_B_exceeds_max_length
+1220	Q94F62	Q9FL28	positive	615	1173	sequence_B_exceeds_max_length
+1222	Q94F62	Q9ZWC8	positive	615	1166	sequence_B_exceeds_max_length
+1223	Q94FB9	Q9SRQ3	positive	1337	248	sequence_A_exceeds_max_length
+1229	Q96524	Q9SYX2	positive	612	1029	sequence_B_exceeds_max_length
+1231	Q9ASS6	Q9C5U2	positive	259	1176	sequence_B_exceeds_max_length
+1232	Q9AT76-1	Q9FVC1	positive		240	sequence_missing_A
+1239	Q9C5U0	Q9C5U1	positive	1080	1036	sequence_A_and_B_exceed_max_length
+1240	Q9C5U0	Q9SCU5	positive	1080	549	sequence_A_exceeds_max_length
+1241	Q9C5U1	Q9C5U2	positive	1036	1176	sequence_A_and_B_exceed_max_length
+1242	Q9C5U1	Q9SAZ5	positive	1036	155	sequence_A_exceeds_max_length
+1243	Q9C5U1	Q9ZNV8	positive	1036	156	sequence_A_exceeds_max_length
+1244	Q9C5U1	Q9ZNV9	positive	1036	154	sequence_A_exceeds_max_length
+1245	Q9C5U2	Q9C5U2	positive	1176	1176	sequence_A_and_B_exceed_max_length
+1246	Q9C5U2	Q9CAR7	positive	1176	286	sequence_A_exceeds_max_length
+1247	Q9C5U2	Q9FM19	positive	1176	286	sequence_A_exceeds_max_length
+1248	Q9C5U2	Q9FMJ0	positive	1176	1121	sequence_A_and_B_exceed_max_length
+1249	Q9C5U2	Q9SAZ5	positive	1176	155	sequence_A_exceeds_max_length
+1250	Q9C5U2	Q9ZNV8	positive	1176	156	sequence_A_exceeds_max_length
+1251	Q9C5U2	Q9ZNV9	positive	1176	154	sequence_A_exceeds_max_length
+1253	Q9C6M5	Q9SQI2	positive	361	1173	sequence_B_exceeds_max_length
+1261	Q9C9W9	Q9SQI2	positive	619	1173	sequence_B_exceeds_max_length
+1267	Q9FE22	Q9SYX2	positive	292	1029	sequence_B_exceeds_max_length
+1272	Q9FGR0	Q9LKF9	positive	1442	739	sequence_A_exceeds_max_length
+1276	Q9FHN8	Q9ZPX9	positive	1260	135	sequence_A_exceeds_max_length
+1277	Q9FHN8-1	Q9ZPX9	positive		135	sequence_missing_A
+1300	Q9FMZ0	Q9ZWC8	positive	337	1166	sequence_B_exceeds_max_length
+1309	Q9FVC1	Q9SQI2	positive	240	1173	sequence_B_exceeds_max_length
+1310	Q9FZK0	Q9SQI2	positive	393	1173	sequence_B_exceeds_max_length
+1314	Q9LDI3	Q9LKW9	positive	446	1146	sequence_B_exceeds_max_length
+1321	Q9LIR4-1	Q9LIR4-1	positive			sequence_missing_A_and_B
+1325	Q9LKB9	Q9ZRE2	positive	1505	205	sequence_A_exceeds_max_length
+1331	Q9LN63	Q9STM3	positive	335	1360	sequence_B_exceeds_max_length
+1337	Q9LTT8	Q9SJF3	positive	1344	367	sequence_A_exceeds_max_length
+1342	Q9LV87	Q9SSL9	positive	92	1123	sequence_B_exceeds_max_length
+1348	Q9LX99	Q9SEX2	positive	1273	523	sequence_A_exceeds_max_length
+1391	Q9S7Q7	Q9SQI2	positive	196	1173	sequence_B_exceeds_max_length
+1401	Q9SIN1	Q9ZPS9	positive	691	1143	sequence_B_exceeds_max_length
+1419	Q9XGM3	Q9XGM3	positive	1217	1217	sequence_A_and_B_exceed_max_length
+1420	Q9XI87	Q9ZPS9	positive	438	1143	sequence_B_exceeds_max_length
+1425	Q9ZWC8	Q9ZWC8	positive	1166	1166	sequence_A_and_B_exceed_max_length
+1426	A0A178UA35	Q9LTD6	negative		172	sequence_missing_A
+1427	A0A178UFM8	Q9ZV02	negative		258	sequence_missing_A
+1428	A0A178UGH4	Q9SAA9	negative		488	sequence_missing_A
+1429	A0A178UKR9	P14713	negative		1172	sequence_missing_A
+1430	A0A178ULT4	Q9XEC7	negative		646	sequence_missing_A
+1431	A0A178UQA3	Q9FMH5	negative		355	sequence_missing_A
+1432	A0A178URU7	Q9ZNT0	negative		435	sequence_missing_A
+1433	A0A178UXI0	Q9LHF5	negative		602	sequence_missing_A
+1434	A0A178V0W2	P0C2G4	negative		393	sequence_missing_A
+1435	A0A178V4E1	Q94AI4	negative		775	sequence_missing_A
+1436	A0A178VFA3	Q9LU15	negative		127	sequence_missing_A
+1437	A0A178VMH7	Q39140-2	negative			sequence_missing_A_and_B
+1438	A0A178VQN9	Q8VZI3	negative		281	sequence_missing_A
+1439	A0A178VS74	Q93VH5	negative		287	sequence_missing_A
+1440	A0A178VTR0	Q8L940	negative		309	sequence_missing_A
+1441	A0A178VUV0	Q9FHB0	negative		328	sequence_missing_A
+1442	A0A178W4T8	Q8L500	negative		468	sequence_missing_A
+1443	A0A178WDD2	Q29PZ8	negative		150	sequence_missing_A
+1444	A0A178WDM5	Q9C7K0	negative		282	sequence_missing_A
+1445	A0A178WEE3	O80674	negative		253	sequence_missing_A
+1446	A0A178WFR3	Q39140-2	negative			sequence_missing_A_and_B
+1447	A0A178WKB2	Q9SJU0	negative		1058	sequence_missing_A
+1448	A0A178WLV7	Q9FM10	negative		240	sequence_missing_A
+1449	A0A178WP44	O04905	negative		202	sequence_missing_A
+1454	A0A1P8ASI5	Q8L7U0	negative	1029	328	sequence_A_exceeds_max_length
+1462	A0A384KQ28	Q3E8H4	negative		73	sequence_missing_A
+1463	A0A384KVW9	Q9ASX2	negative			sequence_missing_A_and_B
+1464	A0A384KX90	O65282	negative		253	sequence_missing_A
+1465	A0A384KX90	Q9M8Y0	negative		977	sequence_missing_A
+1466	A0A384KYS8	Q8VZM9	negative		159	sequence_missing_A
+1467	A0A384KZU0	Q6EVK6	negative		2193	sequence_missing_A
+1468	A0A384L363	Q9SN19	negative		502	sequence_missing_A
+1469	A0A384L3L6	Q9LZM6	negative		267	sequence_missing_A
+1470	A0A384LEC9	Q9XGZ3	negative		115	sequence_missing_A
+1471	A0A654F9U8	P42777	negative		270	sequence_missing_A
+1490	B5X0I6	Q8RXF1	negative	1091		sequence_missing_B
+1491	B5X0I6	Q9C9H1	negative	1091	244	sequence_A_exceeds_max_length
+1505	C0LGP3	Q84TE6-2	negative	1009		sequence_missing_B
+1507	C0LGR3	O22704	negative	1091	121	sequence_A_exceeds_max_length
+1509	C0LGS2	Q9LHS9	negative	1136	226	sequence_A_exceeds_max_length
+1514	C0SVN2	Q8LEB2	negative	420		sequence_missing_B
+1519	F4HTH8	Q9ASX2	negative	1181		sequence_missing_B
+1520	F4HVM3	Q9SUA7	negative	356		sequence_missing_B
+1529	F4I420	Q8VYJ7	negative	1294	964	sequence_A_exceeds_max_length
+1530	F4I421	Q84JG2	negative	1166	469	sequence_A_exceeds_max_length
+1545	F4IG60	Q8RWZ3	negative	136		sequence_missing_B
+1559	F4IVJ8	Q9FGP7	negative	1826	202	sequence_A_exceeds_max_length
+1561	F4IX22	O80786	negative	1254	727	sequence_A_exceeds_max_length
+1562	F4IX22	Q9SIK1	negative	1254	523	sequence_A_exceeds_max_length
+1571	F4J2K4	Q6S592	negative	1273	207	sequence_A_exceeds_max_length
+1575	F4JCR2	Q0PW40	negative	1606	673	sequence_A_exceeds_max_length
+1576	F4JKK0	O64425	negative	1108	249	sequence_A_exceeds_max_length
+1579	F4JP43	Q8VZ73	negative	2037	296	sequence_A_exceeds_max_length
+1583	F4JRB0-2	Q0PW40	negative		673	sequence_missing_A
+1585	F4JS25	Q6NNH1	negative	1052	387	sequence_A_exceeds_max_length
+1587	F4JT76	Q9S7J8	negative	1034	1001	sequence_A_exceeds_max_length
+1590	F4JVN6	Q94BU8	negative	1380	185	sequence_A_exceeds_max_length
+1595	F4K128	Q9LFS4	negative	1064	638	sequence_A_exceeds_max_length
+1600	F4K3G5	O04291	negative	1297	852	sequence_A_exceeds_max_length
+1601	F4K3G5	O64477	negative	1297	828	sequence_A_exceeds_max_length
+1602	F4K3G5	Q6NNI6	negative	1297	204	sequence_A_exceeds_max_length
+1603	F4K5S0	Q9FL13	negative	1658	183	sequence_A_exceeds_max_length
+1604	F4K5S0	Q9MAU6	negative	1658	447	sequence_A_exceeds_max_length
+1611	F4KD38	Q8LE52	negative	1161		sequence_missing_B
+1615	F4KIB2	Q9LUG9	negative	648	1309	sequence_B_exceeds_max_length
+1617	F4KIJ2	Q8GWJ7	negative	1040	645	sequence_A_exceeds_max_length
+1619	O04019	Q8S897	negative	423		sequence_missing_B
+1624	O04265	Q9FXG8-2	negative	347		sequence_missing_B
+1633	O04539	Q9STT5	negative	1326	935	sequence_A_exceeds_max_length
+1649	O22456-2	Q9LRY5	negative		354	sequence_missing_A
+1650	O22476	Q7XJU2	negative	1196	149	sequence_A_exceeds_max_length
+1651	O22476	Q8LCH5	negative	1196	154	sequence_A_exceeds_max_length
+1662	O22815	O65523	negative	501		sequence_missing_B
+1667	O22900	Q8RWZ6	negative	337		sequence_missing_B
+1672	O23063	Q8LDK5	negative	364		sequence_missing_B
+1675	O23087	Q9FMC7	negative	1054	178	sequence_A_exceeds_max_length
+1683	O23290	Q8S3N1	negative	105		sequence_missing_B
+1684	O23298	Q8RX29	negative	158		sequence_missing_B
+1688	O23409	O64798	negative		389	sequence_missing_A
+1689	O23489	O82290	negative		387	sequence_missing_A
+1691	O23530	Q8GYN5	negative	1437	211	sequence_A_exceeds_max_length
+1696	O23694	O64511-1	negative	166		sequence_missing_B
+1704	O48686	P84634	negative	1330	1702	sequence_A_and_B_exceed_max_length
+1723	O49538	Q9FHN8	negative	374	1260	sequence_B_exceeds_max_length
+1724	O49552	Q9C899	negative	1088	361	sequence_A_exceeds_max_length
+1728	O49660	Q8RUS5	negative	491		sequence_missing_B
+1732	O49724	Q9ZT50	negative		155	sequence_missing_A
+1733	O49839	Q8LF48	negative	426		sequence_missing_B
+1734	O49839	Q8LPQ9	negative	426		sequence_missing_B
+1735	O50068	Q9M345	negative		677	sequence_missing_A
+1739	O64503	Q8S3D2	negative	332		sequence_missing_B
+1747	O64778	Q8LDK3	negative	807		sequence_missing_B
+1750	O64816	Q8LGH4-PRO_0000396851	negative	432		sequence_missing_B
+1757	O65440-2	Q8S9K8	negative		275	sequence_missing_A
+1758	O65440-2	Q94C65	negative		221	sequence_missing_A
+1759	O65440-2	Q9M886	negative		263	sequence_missing_A
+1763	O65523	Q1PEY6	negative		156	sequence_missing_A
+1764	O65539	Q9C9Y8	negative		640	sequence_missing_A
+1765	O65539	Q9SYM5	negative		669	sequence_missing_A
+1771	O65782	Q38836-2	negative	499		sequence_missing_B
+1790	O80626	Q8RXK1	negative	123		sequence_missing_B
+1799	O80722	Q8LG92	negative	588		sequence_missing_B
+1813	O80917	Q93YQ1	negative	244	1344	sequence_B_exceeds_max_length
+1823	O81283	Q8RY59	negative	1503		sequence_missing_B
+1835	O81752	P59232	negative		157	sequence_missing_A
+1843	O82197	Q9M8Y2	negative	213		sequence_missing_B
+1846	O82286-2	Q9LJ50	negative		440	sequence_missing_A
+1849	O82345	Q9FXG6	negative	1043	444	sequence_A_exceeds_max_length
+1850	O82345	Q9SYK4	negative	1043	1136	sequence_A_and_B_exceed_max_length
+1852	O82491	Q9SSP5	negative	1074	516	sequence_A_exceeds_max_length
+1853	O82491	Q9SZI2	negative	1074	372	sequence_A_exceeds_max_length
+1859	O82633	Q9M2H8	negative		307	sequence_missing_A
+1866	P05466	Q9LSH4	negative	520	1149	sequence_B_exceeds_max_length
+1868	P0C7Q8	Q8RWA5	negative	532		sequence_missing_B
+1870	P0C8R0	Q8LPN3	negative	546		sequence_missing_B
+1876	P14712	Q9C933	negative	1122	366	sequence_A_exceeds_max_length
+1877	P14714	Q9XEC3	negative	1111	528	sequence_A_exceeds_max_length
+1882	P22738	Q9FNZ1-2	negative	390		sequence_missing_B
+1885	P24704	Q8LPL5	negative	152		sequence_missing_B
+1893	P28297	Q9M0B0	negative	576		sequence_missing_B
+1896	P29383-3	Q9SCP2	negative		483	sequence_missing_A
+1901	P30186	Q94AI7	negative	250	1131	sequence_B_exceeds_max_length
+1905	P34791	Q8RY60	negative	260		sequence_missing_B
+1917	P41376	Q9SYP1	negative	412	2171	sequence_B_exceeds_max_length
+1922	P42776	Q8RY84	negative	382		sequence_missing_B
+1926	P42825	Q8RWG8	negative	419		sequence_missing_B
+1944	P48785	Q9M089	negative	796		sequence_missing_B
+1949	P51568	Q8RXL8	negative	400		sequence_missing_B
+1959	P56764	Q93YP9	negative	1376	488	sequence_A_exceeds_max_length
+1960	P56764	Q9FLA1	negative	1376	436	sequence_A_exceeds_max_length
+1966	P56785	Q9FYD1	negative	1786	551	sequence_A_exceeds_max_length
+1971	P59227	Q9LSX7	negative		283	sequence_missing_A
+1972	P59229	Q9S814	negative	166	1294	sequence_B_exceeds_max_length
+1974	P59263	Q9M5A9	negative		388	sequence_missing_A
+1978	P68349	Q8RWF5	negative	260		sequence_missing_B
+1999	P93822	Q9LUG9	negative	133	1309	sequence_B_exceeds_max_length
+2012	Q08A69	Q8RY99	negative	412		sequence_missing_B
+2020	Q0WLS8	Q84VW0	negative	1377	123	sequence_A_exceeds_max_length
+2022	Q0WM93	Q9M085	negative	1265	412	sequence_A_exceeds_max_length
+2026	Q0WR59	Q9M111	negative	1048	809	sequence_A_exceeds_max_length
+2041	Q1EBV6	Q9FXG8-1	negative	410		sequence_missing_B
+2067	Q2LAE1	Q3E7N5	negative	1759	126	sequence_A_exceeds_max_length
+2068	Q2LAE1	Q8GWL1	negative	1759	286	sequence_A_exceeds_max_length
+2071	Q2V3H2	Q8RWD9	negative	390		sequence_missing_B
+2079	Q38826-1	Q9MAH8	negative		391	sequence_missing_A
+2093	Q38935	Q8RXW0	negative	153		sequence_missing_B
+2096	Q38970	Q8GYQ9	negative	2254	453	sequence_A_exceeds_max_length
+2097	Q38997	Q9FXF2-2	negative	512		sequence_missing_B
+2101	Q39041	Q8S397	negative	664		sequence_missing_B
+2108	Q39142	Q8RWA2	negative	266		sequence_missing_B
+2109	Q39161	Q8RY08	negative	586		sequence_missing_B
+2119	Q39262	Q8VYW7	negative	235	1180	sequence_B_exceeds_max_length
+2120	Q3E7I5	Q9SV15-2	negative	788		sequence_missing_B
+2124	Q3EAF9-2	Q9STR4	negative		447	sequence_missing_A
+2125	Q3EAV6	Q8RWV3	negative	111		sequence_missing_B
+2127	Q3EBC8	Q9SJ67	negative	1388	189	sequence_A_exceeds_max_length
+2143	Q42093	Q8RWD9	negative	1623		sequence_missing_B
+2148	Q42396	Q8L5R3	negative	490	1254	sequence_B_exceeds_max_length
+2152	Q42601	Q9LTM0	negative	1187	501	sequence_A_exceeds_max_length
+2180	Q5S2C4	Q9SGV6	negative	1425	334	sequence_A_exceeds_max_length
+2186	Q5XPJ6	Q9LTI0	negative	1170	396	sequence_A_exceeds_max_length
+2187	Q5XPJ9	Q9C508	negative	1399	390	sequence_A_exceeds_max_length
+2188	Q5XPJ9	Q9FMX0	negative	1399	263	sequence_A_exceeds_max_length
+2204	Q6IDL4	Q9ASQ6-3	negative	217		sequence_missing_B
+2209	Q6NLQ6	Q8RX71	negative	538		sequence_missing_B
+2236	Q7XYY2-1	Q9LT56	negative		356	sequence_missing_A
+2246	Q84LG2	Q8RWW1	negative	389		sequence_missing_B
+2252	Q84R15	Q84TK3	negative	1196	152	sequence_A_exceeds_max_length
+2254	Q84TD4	U5LV24	negative	275		sequence_missing_B
+2255	Q84TD6	Q9LJD8	negative	359	1368	sequence_B_exceeds_max_length
+2257	Q84VW3	Q8RXL7	negative	204		sequence_missing_B
+2263	Q84WU2	Q9FYE6	negative	1115	240	sequence_A_exceeds_max_length
+2266	Q84XF3	Q9FVC1-2	negative	610		sequence_missing_B
+2291	Q8GY25	Q8RY37	negative	268		sequence_missing_B
+2298	Q8GYU3	Q9FFJ0	negative	1465	130	sequence_A_exceeds_max_length
+2304	Q8H133	Q9M089	negative	525		sequence_missing_B
+2321	Q8L586	Q8RXF8	negative	287		sequence_missing_B
+2324	Q8L5Y4	Q93V43	negative	1509	365	sequence_A_exceeds_max_length
+2327	Q8L736	Q8LPI7	negative	467		sequence_missing_B
+2329	Q8L736	Q9M658	negative	467	2001	sequence_B_exceeds_max_length
+2334	Q8L7G0	Q8LG64	negative	665		sequence_missing_B
+2335	Q8L7G2	Q9SXZ2-2	negative	171		sequence_missing_B
+2342	Q8L7Y8	Q9FYC2	negative	1313	537	sequence_A_exceeds_max_length
+2360	Q8LB88	Q8LG92	negative	433		sequence_missing_B
+2368	Q8LCY3	Q9FN37	negative	106	1036	sequence_B_exceeds_max_length
+2370	Q8LE43	Q8VXV7	negative		844	sequence_missing_A
+2371	Q8LE94	Q9FGL2	negative		250	sequence_missing_A
+2372	Q8LEB2	Q94BR1	negative		702	sequence_missing_A
+2373	Q8LEB2	Q9SV09	negative		540	sequence_missing_A
+2374	Q8LEM7	Q8VYQ4	negative		348	sequence_missing_A
+2375	Q8LF21	Q9LJ45	negative		210	sequence_missing_A
+2376	Q8LF80	Q94C27	negative		351	sequence_missing_A
+2377	Q8LFJ6	Q9SDS7	negative		375	sequence_missing_A
+2378	Q8LFT2	Q9M2D2	negative		410	sequence_missing_A
+2379	Q8LFV3	Q9SD45	negative		323	sequence_missing_A
+2380	Q8LFV3	Q9ZWC8	negative		1166	sequence_missing_A
+2381	Q8LGC6	Q9FG94	negative		331	sequence_missing_A
+2382	Q8LGI3	Q9LJ44	negative		364	sequence_missing_A
+2383	Q8LJT8	Q9SIF2	negative		780	sequence_missing_A
+2384	Q8LPF0	Q9MAM1-4	negative			sequence_missing_A_and_B
+2385	Q8LPH6	Q9C6C8	negative		254	sequence_missing_A
+2386	Q8LPH6	Q9CAD1	negative		534	sequence_missing_A
+2387	Q8LPJ4	Q94BN0	negative		364	sequence_missing_A
+2388	Q8LPL5	Q94BY2	negative		146	sequence_missing_A
+2389	Q8LPS5	Q9LJD8	negative		1368	sequence_missing_A
+2390	Q8LSZ4	Q9LEV3	negative		206	sequence_missing_A
+2391	Q8RVL2	Q9FVI6	negative		686	sequence_missing_A
+2392	Q8RWA2	Q9FPJ4	negative		202	sequence_missing_A
+2393	Q8RWF0	Q9CAT5	negative		314	sequence_missing_A
+2394	Q8RWK8	Q9FWW2	negative		483	sequence_missing_A
+2395	Q8RWL4	Q9C5C8	negative		202	sequence_missing_A
+2396	Q8RWQ1	Q9FF99	negative		467	sequence_missing_A
+2397	Q8RWQ8	Q945P6	negative		245	sequence_missing_A
+2398	Q8RWV0	Q9LXG8	negative		548	sequence_missing_A
+2399	Q8RWV3	Q9C6B8	negative		622	sequence_missing_A
+2400	Q8RWV8	Q9M2H8	negative		307	sequence_missing_A
+2401	Q8RWV9	Q9C9F0	negative		374	sequence_missing_A
+2402	Q8RWY7	Q9ZW19	negative		271	sequence_missing_A
+2403	Q8RWZ1	Q940V1	negative		447	sequence_missing_A
+2404	Q8RWZ3	Q8RY18	negative			sequence_missing_A_and_B
+2405	Q8RWZ6	Q9LPZ9	negative		830	sequence_missing_A
+2406	Q8RXD5	Q9SR34	negative		172	sequence_missing_A
+2407	Q8RXD7	Q9LMC7	negative		285	sequence_missing_A
+2408	Q8RXE5	Q9LVW0	negative		401	sequence_missing_A
+2409	Q8RXG3	Q9LIQ6	negative		234	sequence_missing_A
+2410	Q8RXL7	Q9SIZ5	negative		410	sequence_missing_A
+2411	Q8RXM5	Q9FKD7	negative		286	sequence_missing_A
+2412	Q8RXN6	Q9LTI0	negative		396	sequence_missing_A
+2413	Q8RXT8	Q9CAF6	negative		950	sequence_missing_A
+2414	Q8RXY4	Q9C5Q2	negative		262	sequence_missing_A
+2415	Q8RY17	Q9FFR5	negative		117	sequence_missing_A
+2416	Q8RY60	Q8VZK4	negative		185	sequence_missing_A
+2417	Q8RY65	Q9SIV0	negative		462	sequence_missing_A
+2418	Q8RY74	Q9SCK0	negative		603	sequence_missing_A
+2419	Q8RY84	Q9C6M0	negative		483	sequence_missing_A
+2420	Q8RYD3	Q9SIL6	negative		286	sequence_missing_A
+2421	Q8RYD9	Q9S763	negative		147	sequence_missing_A
+2422	Q8RYE2	Q9XFR5	negative		268	sequence_missing_A
+2423	Q8S2T0	Q9LRJ9	negative		252	sequence_missing_A
+2453	Q8W2F2-2	Q9FJ90	negative		232	sequence_missing_A
+2478	Q93ZB1-2	Q9ZPX9	negative		135	sequence_missing_A
+2483	Q93ZV8	Q9SV15-2	negative	605		sequence_missing_B
+2498	Q945K9	Q9S814	negative	247	1294	sequence_B_exceeds_max_length
+2531	Q94CK9-3	Q9SUH1	negative		214	sequence_missing_A
+2534	Q94FB9	Q9M2U8	negative	1337	296	sequence_A_exceeds_max_length
+2551	Q9ASQ6-3	Q9S818	negative		358	sequence_missing_A
+2561	Q9C5G2	Q9ZPW3-2	negative	423		sequence_missing_B
+2573	Q9C7S5	Q9SUN5	negative	1095	257	sequence_A_exceeds_max_length
+2578	Q9C836	Q9SHI2	negative	178	1101	sequence_B_exceeds_max_length
+2621	Q9FFT6	Q9LQ02	negative	112	1453	sequence_B_exceeds_max_length
+2631	Q9FGR0	Q9LYU5	negative	1442	370	sequence_A_exceeds_max_length
+2632	Q9FGS5	Q9LTT8	negative	210	1344	sequence_B_exceeds_max_length
+2639	Q9FH13	Q9SVQ5	negative	166		sequence_missing_B
+2640	Q9FH18-1	Q9LPT1	negative		686	sequence_missing_A
+2657	Q9FJL3	Q9SP32	negative	578	1909	sequence_B_exceeds_max_length
+2687	Q9FNZ1-2	Q9LIF6	negative		188	sequence_missing_A
+2698	Q9FVT5	Q9T097	negative	362		sequence_missing_B
+2707	Q9LD60	Q9LDM5	negative		666	sequence_missing_A
+2737	Q9LJF3	Q9SXS2	negative	1164	631	sequence_A_exceeds_max_length
+2742	Q9LK40	Q9SX27	negative	1172	452	sequence_A_exceeds_max_length
+2759	Q9LRR4	Q9M2B3	negative	1054	341	sequence_A_exceeds_max_length
+2771	Q9LU77	Q9LUG9	negative	647	1309	sequence_B_exceeds_max_length
+2780	Q9LVN7	Q9SMX3	negative	1095	274	sequence_A_exceeds_max_length
+2781	Q9LVN7	Q9SS37	negative	1095	247	sequence_A_exceeds_max_length
+2801	Q9M591	Q9M5P7	negative	409		sequence_missing_B
+2828	Q9SI54	Q9XIJ3	negative	99		sequence_missing_B
+2835	Q9SL90	Q9SNA3	negative	2464	889	sequence_A_exceeds_max_length
+2838	Q9SR34	Q9SXL4	negative	172	1207	sequence_B_exceeds_max_length

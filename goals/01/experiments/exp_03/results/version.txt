@@ -1,10 +1,13 @@
-date_utc: 2026-09-21 07:03:03 UTC
+date_utc: 2026-09-21 07:14:37 UTC
 ground_truth: goals/01/experiments/exp_01/results/ground_truth.tsv
 ground_truth_sha256: 2166a1a77d6dd0679ffca4fb2dff44a095f73bc3bd1bf8cd958ff3598b16a3aa
 fasta: goals/01/experiments/exp_02/results/sequences.fasta
 fasta_sha256: c3a6d17998a43df0c80c9f491d85bd7b968135674f9cedb8317ee13259909fe1
-git_commit: 6a225a6356b7d581ffee62813e334e40d5b8b0e6
+git_commit: 8851548ec8a3a7b171ba0820a9cea53edcd43736
 input_rows: 2848
-kept_rows: 2442
-removed_rows: 406
+kept_rows: 2233
+removed_rows: 615
 available_proteins: 2893
+eligible_proteins: 2769
+excluded_proteins_over_max_length: 124
+max_sequence_length: 1024
