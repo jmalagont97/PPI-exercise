@@ -1,0 +1,11 @@
+metric	value
+input_proteins	2893
+processed_proteins	2769
+excluded_length	124
+failed	0
+max_sequence_length	1024
+embedding_dimension	1280
+batch_size	1
+device	cuda
+elapsed_seconds	314.572
+throughput_proteins_per_second	8.802

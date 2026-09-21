@@ -1,0 +1,17 @@
+date_utc: 2026-09-21T07:43:33.390188+00:00
+model_id: Synthyra/ESM2-650M
+model_hidden_size: 1280
+fasta: /home/jmalagont/Documents/PPI-exercise/goals/01/experiments/exp_02/results/sequences.fasta
+fasta_sha256: c3a6d17998a43df0c80c9f491d85bd7b968135674f9cedb8317ee13259909fe1
+git_commit: 8851548ec8a3a7b171ba0820a9cea53edcd43736
+git_status_dirty: True
+input_proteins: 2893
+processed_proteins: 2769
+excluded_length: 124
+failed: 0
+max_sequence_length: 1024
+embedding_dimension: 1280
+batch_size: 1
+device: cuda
+elapsed_seconds: 314.572
+throughput_proteins_per_second: 8.802
