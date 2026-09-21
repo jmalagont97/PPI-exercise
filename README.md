@@ -15,7 +15,9 @@ The model is trained and evaluated against a curated ground truth derived from t
   ```bash
   curl -o data/arath.zip https://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/species/arath.zip
   unzip data/arath.zip -d data/ && rm data/arath.zip
+  mv data/arath.txt data/A.thaliana_interactome.txt
   ```
+  The zip contains a single file `arath.txt`; it must be renamed to `A.thaliana_interactome.txt` for the pipeline to find it (the shipped file is byte-identical to the one used in exp_01, sha256-verified).
 - **`data/ground_truth.tsv`** — the master annotation file (symlink to `goals/01/experiments/exp_01/results/`): 2,848 balanced protein pairs.
   - **1,424 positives** — experimentally demonstrated *direct interactions* only (PSI-MI `MI:0407`), self-interactions included.
   - **1,424 negatives** — random protein pairs drawn from the same studied proteome with **no evidence of interaction of any kind** in the master file.
