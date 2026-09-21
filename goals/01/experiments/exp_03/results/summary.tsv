@@ -1,0 +1,12 @@
+metric	value
+input_rows	2848
+kept_rows	2442
+removed_rows	406
+available_proteins	2893
+rows_with_both_sequences	2442
+rows_missing_A	274
+rows_missing_B	146
+input_label_negative	1424
+filtered_label_negative	1241
+input_label_positive	1424
+filtered_label_positive	1201

@@ -1,0 +1,13 @@
+date_utc: 2026-09-21 06:55:04 UTC
+input: data/ground_truth.tsv
+input_sha256: 2166a1a77d6dd0679ffca4fb2dff44a095f73bc3bd1bf8cd958ff3598b16a3aa
+git_commit: 6a225a6356b7d581ffee62813e334e40d5b8b0e6
+source_url: https://rest.uniprot.org/uniprotkb/stream
+batch_size: 100
+timeout_seconds: 30
+retries: 4
+pause_seconds: 0.2
+requested_ids: 3086
+limit: 0
+recovered_ids: 2893
+invalid_input_rows: 0
