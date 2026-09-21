@@ -10,7 +10,12 @@ The model is trained and evaluated against a curated ground truth derived from t
 
 ## Data
 
-- **`data/A.thaliana_interactome.txt`** — the master source: the *A. thaliana* interactome downloaded from IntAct in PSI-MI MITAB format (70,798 raw interaction records, 42 columns).
+- **`data/A.thaliana_interactome.txt`** — the master source: the *A. thaliana* interactome from IntAct in PSI-MI MITAB format (70,798 raw interaction records, 42 columns). **Not tracked by Git (255 MB) — download it directly from IntAct:**
+
+  ```bash
+  curl -o data/arath.zip https://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/species/arath.zip
+  unzip data/arath.zip -d data/ && rm data/arath.zip
+  ```
 - **`data/ground_truth.tsv`** — the master annotation file (symlink to `goals/01/experiments/exp_01/results/`): 2,848 balanced protein pairs.
   - **1,424 positives** — experimentally demonstrated *direct interactions* only (PSI-MI `MI:0407`), self-interactions included.
   - **1,424 negatives** — random protein pairs drawn from the same studied proteome with **no evidence of interaction of any kind** in the master file.
