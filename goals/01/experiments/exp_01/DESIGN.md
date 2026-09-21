@@ -3,7 +3,7 @@
 **Project**: PPI-exercise (goal 01 — obtención de datos)
 **Date**: 2026-09-21
 **Author**: J. S. Malagón Torres (PI) + Co-investigador IA (rol: interactómica y deep learning)
-**Status**: Draft
+**Status**: Complete
 
 ---
 
