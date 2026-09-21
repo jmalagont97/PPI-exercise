@@ -2,4 +2,4 @@
 
 | exp | estado |
 |-----|--------|
-| exp_01 | running |
+| exp_01 | completed |

@@ -1,6 +1,6 @@
 import csv, random, hashlib, subprocess, datetime, os
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../.."))
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../.."))
 SRC = os.path.join(ROOT, "data/A.thaliana_interactome.txt")
 OUT_DIR = os.path.join(ROOT, "goals/01/experiments/exp_01/results")
 SEED, TAXID, DIRECT = 42, "3702", "MI:0407"
